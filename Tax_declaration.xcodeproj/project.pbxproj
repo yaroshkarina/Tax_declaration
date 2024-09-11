@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		87104E4E2C9229A600D2BAAC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 87104E4D2C9229A600D2BAAC /* main.cpp */; };
+		87104E562C9229DF00D2BAAC /* TaxDeclaration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 87104E542C9229DF00D2BAAC /* TaxDeclaration.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		87104E4A2C9229A600D2BAAC /* Tax_declaration */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Tax_declaration; sourceTree = BUILT_PRODUCTS_DIR; };
 		87104E4D2C9229A600D2BAAC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		87104E542C9229DF00D2BAAC /* TaxDeclaration.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TaxDeclaration.cpp; sourceTree = "<group>"; };
+		87104E552C9229DF00D2BAAC /* TaxDeclaration.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TaxDeclaration.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,8 @@
 		87104E412C9229A600D2BAAC = {
 			isa = PBXGroup;
 			children = (
+				87104E542C9229DF00D2BAAC /* TaxDeclaration.cpp */,
+				87104E552C9229DF00D2BAAC /* TaxDeclaration.hpp */,
 				87104E4C2C9229A600D2BAAC /* Tax_declaration */,
 				87104E4B2C9229A600D2BAAC /* Products */,
 			);
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87104E562C9229DF00D2BAAC /* TaxDeclaration.cpp in Sources */,
 				87104E4E2C9229A600D2BAAC /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
