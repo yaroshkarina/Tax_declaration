@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		87104E4E2C9229A600D2BAAC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 87104E4D2C9229A600D2BAAC /* main.cpp */; };
 		87104E562C9229DF00D2BAAC /* TaxDeclaration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 87104E542C9229DF00D2BAAC /* TaxDeclaration.cpp */; };
+		87104E592C922A4800D2BAAC /* TaxDeclarationSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 87104E572C922A4800D2BAAC /* TaxDeclarationSystem.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		87104E4D2C9229A600D2BAAC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		87104E542C9229DF00D2BAAC /* TaxDeclaration.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TaxDeclaration.cpp; sourceTree = "<group>"; };
 		87104E552C9229DF00D2BAAC /* TaxDeclaration.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TaxDeclaration.hpp; sourceTree = "<group>"; };
+		87104E572C922A4800D2BAAC /* TaxDeclarationSystem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TaxDeclarationSystem.cpp; sourceTree = "<group>"; };
+		87104E582C922A4800D2BAAC /* TaxDeclarationSystem.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TaxDeclarationSystem.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +47,8 @@
 		87104E412C9229A600D2BAAC = {
 			isa = PBXGroup;
 			children = (
+				87104E572C922A4800D2BAAC /* TaxDeclarationSystem.cpp */,
+				87104E582C922A4800D2BAAC /* TaxDeclarationSystem.hpp */,
 				87104E542C9229DF00D2BAAC /* TaxDeclaration.cpp */,
 				87104E552C9229DF00D2BAAC /* TaxDeclaration.hpp */,
 				87104E4C2C9229A600D2BAAC /* Tax_declaration */,
@@ -124,6 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87104E592C922A4800D2BAAC /* TaxDeclarationSystem.cpp in Sources */,
 				87104E562C9229DF00D2BAAC /* TaxDeclaration.cpp in Sources */,
 				87104E4E2C9229A600D2BAAC /* main.cpp in Sources */,
 			);
